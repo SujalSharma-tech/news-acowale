@@ -1,0 +1,27 @@
+.swiper-hero{
+    min-height: 400px !important;
+    height: auto  !important;
+    padding-bottom: 10px;
+}
+
+.swiper-hero .swiper-pagination{
+    top: 98%;
+}
+
+@media screen and (min-width:786px) {
+    .swiper-hero .swiper-pagination{
+    top: 95%;
+}
+}
+
+@media screen and (max-width:768px){
+
+    
+    .swiper-hero .swiper-button-next{
+        display: none;
+    }
+    
+    .swiper-hero .swiper-button-prev{
+        display: none;
+    }
+}
